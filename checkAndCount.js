@@ -129,3 +129,5 @@ let checkAndCount = (arr) => {
 
 // *Call of the function
 checkAndCount(myxedArray)
+
+// Source:  https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/
