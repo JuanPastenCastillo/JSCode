@@ -1,0 +1,69 @@
+html {
+ font-family: monospace;
+ font-size: 1.9rem;
+}
+
+body {
+ background: #0d1117;
+ color: white;
+}
+
+.title {
+ text-align: center;
+ /* border: 1px white solid; */
+}
+
+.stopWatchContainer {
+ font-size: 3rem;
+ display: flex;
+ justify-content: center;
+ border: 1px white solid;
+ /* border-bottom: 1px white solid; */
+}
+
+.buttonContainer {
+ /* border: 1px white solid; */
+ display: flex;
+ justify-content:center ;
+ 
+}
+
+.buttonContainer button{
+ /* border: 1px white solid; */
+ margin-top: 30px;
+ font-size: 60px;
+ padding: 20px;
+ border-radius: 40px;
+ cursor: pointer;
+ border:none;
+}
+
+.buttonContainer button:hover{
+box-shadow: 0px 0px 29px 0px #FFFFFF;
+}
+
+.offOn {
+ margin-right: 20px;
+ background-color:royalblue;
+ 
+}
+
+.reset{
+ margin-left: 20px;
+ background-color:purple;
+ color:white;
+}
+
+.legend {
+ margin-top: 30px;
+}
+
+.legend div {
+ display: flex;
+ justify-content: center;
+}
+
+.stopBtn:focus{
+ background-color: sandybrown;
+}
+
