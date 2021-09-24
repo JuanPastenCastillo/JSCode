@@ -1,6 +1,6 @@
 html {
  font-family: monospace;
- font-size: 1.9rem;
+ font-size: 1.1rem;
 }
 
 body {
@@ -8,30 +8,29 @@ body {
  color: white;
 }
 
-.title {
+.titleContainer{
  text-align: center;
- /* border: 1px white solid; */
 }
+
 
 .stopWatchContainer {
- font-size: 3rem;
+ font-size: 6vmax;
  display: flex;
  justify-content: center;
+ align-items: center;
  border: 1px white solid;
- /* border-bottom: 1px white solid; */
-}
-
-.buttonContainer {
- /* border: 1px white solid; */
- display: flex;
- justify-content:center ;
  
 }
 
+.buttonContainer {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+
 .buttonContainer button{
- /* border: 1px white solid; */
  margin-top: 30px;
- font-size: 60px;
+ font-size: 30px;
  padding: 20px;
  border-radius: 40px;
  cursor: pointer;
@@ -43,13 +42,11 @@ box-shadow: 0px 0px 29px 0px #FFFFFF;
 }
 
 .offOn {
- margin-right: 20px;
  background-color:royalblue;
  
 }
 
 .reset{
- margin-left: 20px;
  background-color:purple;
  color:white;
 }
